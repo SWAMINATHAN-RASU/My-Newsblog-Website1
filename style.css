@@ -1,0 +1,77 @@
+.{
+    margin: 0; padding: 0;
+}
+    
+.heading{
+    background-color: red; color: white;
+    border: 1px; 
+    padding: 10px;
+    padding-left: 5%;
+    padding-right: 80%; 
+}
+.maincontainer{
+    display: flex;
+    gap: 4px;
+    
+}
+.bt1 button, .bt2 button, .bt3 button, .bt4 button, .bt5 button
+{ 
+    background-color: red; color: white;
+    border: 1px solid red;
+    padding: 8px; padding-left: 5%;
+    margin-top: 5%;
+
+}
+.container1{
+    background-color: white; color: yellow;
+}
+.ct1{
+    position: relative;
+    top: 60%;
+    left: 5%;
+    align-items: center;    
+}
+.ct2, .ct3, .ct4, .ct5 {
+    position: relative;
+    top: 45%;
+    left: 5%;
+    align-items: center;
+}
+.container2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);gap: 4px;
+    background-color: white; color: yellow;
+    width: 600px; height: 600px; border: 2px snow;
+}
+
+.bg1 {
+    width: 600px; height: 600px; border: 2px snow;
+    background-image: url(https://www.politico.com/dims4/default/3a63114/2147483647/strip/true/crop/1160x629+0+0/resize/1260x684!/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2F71%2Fe1%2Faff73129453c929d12a1b7cc63fb%2F180111-trump-verma-2-ap-1160.jpg);
+    background-repeat: no-repeat; background-size: cover;
+}
+.bg2{
+    background-image: url(https://www.politico.com/dims4/default/f191991/2147483647/strip/true/crop/1160x629+0+0/resize/1260x684!/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2Ffc%2F07%2F08e5b8e346cf9c919ee3fdb7976a%2F180122-chuck-schumer-gty-1160.jpg);
+    background-repeat: no-repeat; background-size: cover;
+}
+.bg3{
+    background-image: url(https://www.politico.com/dims4/default/4611a5a/2147483647/strip/true/crop/1160x629+0+0/resize/1260x684!/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2F5f%2F76%2F097b45cc49ca95fc698a1bf7a162%2F180122-graham-getty-1160.jpg);
+    background-repeat: no-repeat; background-size: cover;
+
+}
+.bg4{
+    background-image: url(https://www.politico.com/dims4/default/6f4c510/2147483647/strip/true/crop/1160x629+0+0/resize/1260x684!/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2Ff8%2F7e%2F547aa2484d0abf9e7068bc9fc615%2F180122trumptradeap-18018784864383.jpg);
+    background-repeat: no-repeat; background-size: cover;
+}
+.bg5{
+    background-image: url(https://static.politico.com/dims4/default/2caf57e/2147483647/resize/1160x/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2F98%2F8e%2Fe3df79e94fe091c803a4b9165f25%2Flede-congressbroken.jpg);
+    background-repeat: no-repeat; background-size: cover;
+}
+footer button{
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    padding: 10px;
+    position: absolute;
+    left: 40%;
+}
+
